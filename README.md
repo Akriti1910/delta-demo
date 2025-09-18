@@ -27,7 +27,36 @@ git push origin main
 git init
 
 # When we want our already existing projects to be pushed onto a new repo, copy the link of that repo and type the following command 
-git remote add origin <link>
+git remote add origin "link"
 
 # To check if it is working fine
 git remote -v
+
+# To create a new branch
+git checkout -b "new branch name"
+
+# To navigte or to change the directory from one branch to another
+git checkout "branch name"
+
+# To delete a branch
+git branch -d "branch name"
+
+# To join/merge a branch in the main 
+git difference "branch name" -- to compare commits, branches, files & more
+
+git merge "branch name" -- to merge 2 branches
+
+# To create a pull request (PR) - it lets u tell others about the changes u have pushed to a branch in a repo on GitHub
+git pull origin main -- this lets us bring back the changed file from github to our local system
+
+# Fixing mistakes
+# Case 1 - stages changes - meaning we added the file but forgot to commit
+git reset "file name"
+git reset
+
+# Case 2 - commited changes (for one commit)
+git reset HEAD~1
+
+# Case 3 - commited changes (for many commits)
+git reset <-commit hash->
+git reset--hard <-commit hash->
