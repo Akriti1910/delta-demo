@@ -60,3 +60,5 @@ git reset HEAD~1
 # Case 3 - commited changes (for many commits)
 git reset <-commit hash->
 git reset--hard <-commit hash->
+
+# I added something to show in my CPS 847 project
