@@ -6,8 +6,11 @@ Shradha Khapra
 # Student
 Akriti Singhal
 
-# To clone a file from the github to local terminal
+# To clone a repo folder from the github to local terminal
 git clone "copy the HTTPS file link from GitHub"
+
+# Now change the directory to the folder cloned
+cd folder_name
 
 # To see the status of our file
 git status
